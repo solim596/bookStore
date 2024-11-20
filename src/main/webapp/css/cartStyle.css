@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+/* cartView.jsp */
+.sub-box5 {
+	margin-top: 10%;
+}
+.sub-box5 .center {
+	width: 90%;
+	padding: 20px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	background-color: white;
+	border-radius: 10px;
+	align-items: center;
+	margin: 0 auto;
+}
+.sub-box5 th, .sub-box5 td {
+	text-align: center;
+}
+p {	text-align: center; }
+.sub-box5 img { width: 100px; }
+.td1 { width: 5%; }
+.td1 input { width: 1rem;}
+.td2 { width: 10%; }
+.td3 { width: 15%; }
+.td4 { width: 3%; }
+.td4 input { width: 2.5rem; border: 1px solid #999; };
+.sub-box5 .td5 { width: 10%; }
+.td6 { width: 20%; }
+.td7 { width: 18%; }
+button { white-space: nowrap; margin: 5px; }
+/* type이 number인 input객체의 화살표 버튼 향상 표시 */
+input[type=button]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+	-webkit-appearance : inner-spin-button;
+	opacity: 1;
+}
