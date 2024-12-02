@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+/* table tr { text-align: center; } */
+/* table tr td { text-align: center; } */
+/* boardList.jsp */
+.wrap {
+	width: 60%;
+	padding: 20px;
+	margin: 0 auto;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	background-color: white;
+	border-radius: 10px;
+	align-items: center;
+}
+/* boardWrite.jsp */
+.board-wrap {
+	width: 40%;
+	padding: 20px;
+	margin: 0 auto;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	background-color: white;
+	border-radius: 10px;
+	align-items: center;
+}
+
+/* boardDetail */
+.sub-box2 {
+	width: 40%;
+	margin: 0 auto;
+	padding: 20px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	background-color: white;
+	border-radius: 10px;
+	align-items: center;
+}
+.sub-box2 tr td {
+	text-align: left;
+	white-space: nowrap;
+}
+.sub-box2 tr td button[type="button"] {
+	width: 150px;
+}
+
+/* check-box.jsp */
+.check-box {
+	width: 40%;
+	margin: 0 auto;
+	padding: 20px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	background-color: white;
+	border-radius: 10px;
+	align-items: center;
+}
+.check-box tr td {
+	margin-left: 25%;
+}
+.check-box tr td button {
+	width: 100px;
+}
+
+/* boardUpdate.jsp */
+.sub-box2 .txt {
+	text-align: right;
+	padding-right: 20px;
+}
+.sub-box2 tr td button[type="submit"] {
+	width: 150px
+}
